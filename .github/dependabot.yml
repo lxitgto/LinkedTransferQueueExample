@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "21:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.springframework:spring-context
+    versions:
+    - ">= 5.a, < 6"
+  - dependency-name: io.dropwizard.metrics:metrics-core
+    versions:
+    - 4.1.17
+    - 4.1.18
+    - 4.1.19
