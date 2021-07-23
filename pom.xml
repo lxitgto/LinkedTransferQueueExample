@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <logback.version>1.2.3</logback.version>
+        <logback.version>1.2.4-groovyless</logback.version>
         <metrics.version>4.2.0</metrics.version>
     </properties>
 
